@@ -6,7 +6,7 @@ export default function Home() {
     <div className="p-6">
       <Head>
         <title>Talent App</title>
-        <script src="https://telegram.org/js/telegram-web-app.js" async ></script>
+       
       </Head>
       <h1 className="text-3xl font-bold">Welcome to the Talent Platform</h1>
       <div className="mt-4">
