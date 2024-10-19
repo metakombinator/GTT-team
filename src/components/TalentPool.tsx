@@ -1,4 +1,7 @@
 import React from 'react';
+import { useRouter } from 'next/router';
+import  Navigation  from './Navigation'
+
 
 type Candidate = {
   name: string;
@@ -43,6 +46,7 @@ const TalentPool: React.FC = () => {
           </div>
         ))}
       </div>
+      <Navigation />
     </div>
   );
 };
