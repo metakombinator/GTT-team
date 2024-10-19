@@ -17,6 +17,11 @@ const candidates: Candidate[] = [
     skills: ['AI', 'Data Science'],
     experience: '3 years',
   },
+{
+    name: 'Altynay Suleymenova',
+    skills: ['AI', 'Data Science'],
+    experience: '3 years',
+  },
 ];
 
 const TalentPool: React.FC = () => {
